@@ -1,0 +1,132 @@
+﻿<head>
+    <title>SAMSUNG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+    <link href="Page_2_1_4.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="clasic-menu">
+        <ul class="menu">
+
+            <li>
+                <a href="index.html" class="menu-button_1">Home</a>
+            </li>
+
+            <li>
+
+                <a href="#" class="menu-button_2">Menu</a>
+
+                <ul class="submenu_2">
+
+                    <li class="m2_1">
+                        <a href="#" class="menu-button_2_1">Phones</a>
+                        <ul class="submenu_2_1">
+                            <li>
+                                <a href="Page_2_1_1.html">APPLE</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_2.html">MOTOROLLA</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_3.html">OPPO</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_4.html">SAMSUNG</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_5.html">XIAOMI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="m2_2">
+                        <a href="#" class="menu-button_2_2">Tablets</a>
+                        <ul class="submenu_2_2">
+                            <li>
+                                <a href="Page_2_2_1.html">APPLE</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_2_2.html">SAMSUNG</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_2_3.html">XIAOMI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="m2_3">
+                        <a href="#" class="menu-button_2_3">Laptops </a>
+                        <ul class="submenu_2_3">
+                            <li>
+                                <a href="Page_2_3_1.html">ACER</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_3_2.html">ASUS</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_3_3.html">LENOVO</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" class="menu-button_3">Contacts</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="M">
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_60_9879_0_1_Yh6q7t.webp" alt"photo 1">
+            <p>
+                SAMSUNG GALAXY A
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/mobilnye_telefony_samsung_samsung-galaxy-a25.html" class="bey">BUY</a>
+        </div>
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_60_10179_0_1_8gmcXe.webp" alt"photo 2">
+            <p>
+                SAMSUNG FLIP 
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/mobilnye_telefony_samsung_samsung-galaxy-flip-6.html" class="bey">BUY</a>
+        </div>
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_60_9979_0_1_8UBjTd.webp" alt"photo 3">
+            <p>
+                SAMSUNG GALAXY M
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/mobilnye_telefony_samsung_samsung-galaxy-m15.html" class="bey">BUY</a>
+        </div>
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_60_9855_0_1_GBvpzn.webp" alt"photo 4">
+            <p>
+                SAMSUNG GALAXY S
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/mobilnye_telefony_samsung_samsung-galaxy-s24-ultra.html" class="bey">BUY</a>
+        </div>
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_60_9983_0_1_EGiGmY.webp" alt"photo 5">
+            <p>
+                SAMSUNG GALAXY XCOVER
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/mobilnye_telefony_samsung_samsung-galaxy-xcover.html" class="bey">BUY</a>
+        </div>
+    </div>
+
+    <script>
+        const menuButton_2 = document.querySelector('.menu-button_2');
+        const submenu_2 = document.querySelector('.submenu_2');
+ 
+        menuButton_2.addEventListener('click', function (event) {
+            event.preventDefault();
+            submenu_2.classList.toggle('show');
+            menuButton_2.classList.toggle('active');
+        });
+
+    </script>
+
+</body>

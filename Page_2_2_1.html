@@ -1,0 +1,118 @@
+﻿<head>
+    <title>APPLE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+    <link href="Page_2_2_1.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="clasic-menu">
+        <ul class="menu">
+
+            <li>
+                <a href="index.html" class="menu-button_1">Home</a>
+            </li>
+
+            <li>
+
+                <a href="#" class="menu-button_2">Menu</a>
+
+                <ul class="submenu_2">
+
+                    <li class="m2_1">
+                        <a href="#" class="menu-button_2_1">Phones</a>
+                        <ul class="submenu_2_1">
+                            <li>
+                                <a href="Page_2_1_1.html">APPLE</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_2.html">MOTOROLLA</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_3.html">OPPO</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_4.html">SAMSUNG</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_1_5.html">XIAOMI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="m2_2">
+                        <a href="#" class="menu-button_2_2">Tablets</a>
+                        <ul class="submenu_2_2">
+                            <li>
+                                <a href="Page_2_2_1.html">APPLE</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_2_2.html">SAMSUNG</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_2_3.html">XIAOMI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="m2_3">
+                        <a href="#" class="menu-button_2_3">Laptops </a>
+                        <ul class="submenu_2_3">
+                            <li>
+                                <a href="Page_2_3_1.html">ACER</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_3_2.html">ASUS</a>
+                            </li>
+                            <li>
+                                <a href="Page_2_3_3.html">LENOVO</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" class="menu-button_3">Contacts</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="M">
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_1112_2651_0_1_F7AbnA.webp" alt"photo 1">
+            <p>
+                APPLE iPad Pro 13
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/planshety_apple_ipad-pro-13-7gen.html" class="bey">BUY</a>
+        </div>
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_1112_2682_0_1_uU7oQO.webp" alt"photo 2">
+            <p>
+                APPLE iPad Air 13
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/planshety_apple_ipad-air-13-6gen.html" class="bey">BUY</a>
+        </div>
+        <div class="war">
+            <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_1112_2272_0_1_638052628281072122.webp" alt"photo 3">
+            <p>
+                APPLE 10.9
+            </p>
+            <a href="https://www.foxtrot.com.ua/uk/shop/planshety_apple_ipad-10-9.html" class="bey">BUY</a>
+        </div>
+    </div>
+
+    <script>
+        const menuButton_2 = document.querySelector('.menu-button_2');
+        const submenu_2 = document.querySelector('.submenu_2');
+
+        menuButton_2.addEventListener('click', function (event) {
+            event.preventDefault();
+            submenu_2.classList.toggle('show');
+            menuButton_2.classList.toggle('active');
+        });
+
+    </script>
+
+</body>
